@@ -1,0 +1,3 @@
+<template name="foot">
+    <view class="page-foot">成由勤俭败由奢</view>
+</template>

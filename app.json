@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/background-audio/background-audio",
+    "pages/logs/logs",
+    "pages/schedule/setting/setting",
+    "pages/schedule/scheduling/scheduling",
+    "pages/play/play",
+    "pages/schedule/plan/plan",
+    "pages/schedule/nextplan/nextplan",
+    "pages/tianqi/tianqi",
+    "pages/schedule/beforeplan/beforeplan",
+    "pages/pages/index/index",
+    "pages/pages/settings/settings",
+    "pages/pages/handbook/index/index",
+    "pages/pages/handbook/detail/detail",
+    "pages/pages/handbook/statistics/statistics",
+    "pages/pages/handbook/sublist/sublist"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#33ffcc",
+    "navigationBarTitleText": "Life Planning",
+    "navigationBarTextStyle": "blue"
+  },
+  "networkTimeout": {
+    "requst": 20000,
+    "cnnectSocket": 20000,
+    "upladFile": 20000,
+    "downloadFile": 20000
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#33ffcc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/schedule/setting/setting",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "日程"
+      },
+      {
+        "pagePath": "pages/pages/index/index",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "账本"
+      },
+      {
+        "pagePath": "pages/play/play",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "大转盘"
+      }
+    ]
+  }
+}

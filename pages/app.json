@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/background-audio/background-audio",
+    "pages/logs/logs",
+    "pages/schedule/setting/setting",
+    "pages/schedule/scheduling/scheduling",
+    "pages/play/play",
+    "pages/note/note",
+    "pages/nextnote/nextnote",
+    "pages/schedule/plan/plan",
+    "pages/schedule/nextplan/nextplan"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "pink",
+    "navigationBarTitleText": "Time Managing",
+    "navigationBarTextStyle": "blue"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/schedule/setting/setting",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "日程"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "随笔"
+      },
+      {
+        "pagePath": "pages/play/play",
+        "iconPath": "pages/image/logo.png",
+        "selectedIconPath": "pages/image/logo.png",
+        "text": "大转盘"
+      }
+    ]
+  }
+}

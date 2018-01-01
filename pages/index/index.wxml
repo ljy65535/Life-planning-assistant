@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+<view style="width:270px;height:240px"mode="aspectFill">
+<image src="../image/elf.jpg" class="img">
+</image></view>
+  <view   class="header">    
+   欢迎使用！<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+ <view class="header">快去制定自己的计划吧！！！</view>
+  </view><view class="section">
+  <input value="{{userInput}}" bindinput='bindKeyInput'  confirm-type="done" focus="{{focus}}" />
+  <button bindtap="bindButtonTap"wx:if="{{inputValue.length==0}}">点击输入签名...</button>
+   <button bindtap="bindButtonTap"wx:else>{{inputValue}}</button>
+</view>
+   <view class="input-wrap mt" >
+    <button class="btn btn-save" bindtap="saveData">保存个签</button>
+    <button class="btn1" bindtap="gotianqi">查看天气</button>
+      </view>
+  </view>
+ 

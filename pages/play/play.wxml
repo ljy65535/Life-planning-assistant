@@ -1,0 +1,30 @@
+<view class="wrapper">
+	<view class="header">
+		<text class="header-title"> 愿赌服输 </text>
+		<text class="header-subtitle">  选择困难？不如抽个签吧</text> 
+	</view>
+	<view class="main">
+		<view class="canvas-container">
+			<view  animation="{{animationData}}" class="canvas-content" >
+				<canvas style="width: 300px; height: 300px;" class="canvas-element" canvas-id="lotteryCanvas"></canvas>
+				<view class="canvas-line">
+					<view class="canvas-litem" wx:for="{{awardsList}}" wx:key="unique" style="-webkit-transform: rotate({{item.lineTurn}});transform: rotate({{item.lineTurn}})"></view>
+				</view>
+				<view class="canvas-list">
+					<view class="canvas-item" wx:for="{{awardsList}}" wx:key="unique">
+				  		<view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})">{{item.award}}</view>
+					</view>
+				</view>				
+			</view>
+			<view bindtap="getLottery" class="canvas-btn {{btnDisabled}}">开始</view>		
+		</view>
+		<view class="main-container">
+			<view class="main-container-btn">
+			</view>
+			<view class="main-container-rule">
+				<text class="main-rule-title">活动规则：</text>
+				<text class="main-rule-item">  耍赖你就输了</text>
+			</view>	
+		</view>
+	</view> 
+</view>
